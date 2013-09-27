@@ -4,7 +4,7 @@ ITProgressIndicator
 A replacement class for `NSProgressIndicator` driven by Core Animation.
 It's highly customisable and much more efficient than `NSProgressIndicator`.
 
-`ITProgressInidicator` was created for <a href="http://playbyplayapp.com">Play by Play</a>, funded by <a href="http://davidkeegan.com">David Keegan</a>.
+`ITProgressInidicator` was created for <a target="__blank" href="http://playbyplayapp.com">Play by Play</a>, funded by <a target="__blank" href="http://davidkeegan.com">David Keegan</a>.
 
 <img src="./Demo.gif" alt="" />
 
