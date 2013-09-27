@@ -7,7 +7,6 @@
 //
 
 #import "NSBezierPath+Geometry.h"
-#import "NSBezierPath+Geometry.h"
 
 NSAffineTransform *RotationTransform(const float angle, const NSPoint aboutPoint) {
 	NSAffineTransform *xfm = [NSAffineTransform transform];
