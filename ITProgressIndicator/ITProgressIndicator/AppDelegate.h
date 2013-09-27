@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "ITProgressIndicator.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSTableViewDataSource, NSTableViewDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

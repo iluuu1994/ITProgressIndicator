@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91103C1B17F4B63600719AEF /* ITTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91103C1A17F4B63600719AEF /* ITTableCellView.m */; };
 		91F498B717F38F12007CBE92 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F498B617F38F12007CBE92 /* Cocoa.framework */; };
 		91F498C117F38F12007CBE92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F498BF17F38F12007CBE92 /* InfoPlist.strings */; };
 		91F498C317F38F12007CBE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F498C217F38F12007CBE92 /* main.m */; };
@@ -35,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91103C1917F4B63600719AEF /* ITTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTableCellView.h; sourceTree = "<group>"; };
-		91103C1A17F4B63600719AEF /* ITTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTableCellView.m; sourceTree = "<group>"; };
 		91F498B317F38F12007CBE92 /* ITProgressIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITProgressIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F498B617F38F12007CBE92 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		91F498B917F38F12007CBE92 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -142,8 +139,6 @@
 				91C79D6217F4A74700182F0D /* ITProgressIndicator */,
 				91F498C817F38F12007CBE92 /* AppDelegate.h */,
 				91F498C917F38F12007CBE92 /* AppDelegate.m */,
-				91103C1917F4B63600719AEF /* ITTableCellView.h */,
-				91103C1A17F4B63600719AEF /* ITTableCellView.m */,
 				91F498CB17F38F12007CBE92 /* MainMenu.xib */,
 				91F498CE17F38F12007CBE92 /* Images.xcassets */,
 				91F498BD17F38F12007CBE92 /* Supporting Files */,
@@ -281,7 +276,6 @@
 			files = (
 				91F498CA17F38F12007CBE92 /* AppDelegate.m in Sources */,
 				91F498C317F38F12007CBE92 /* main.m in Sources */,
-				91103C1B17F4B63600719AEF /* ITTableCellView.m in Sources */,
 				91F8246C17F4CA3900371819 /* ITProgressIndicator.m in Sources */,
 				91F8246D17F4CA3900371819 /* NSBezierPath+Geometry.m in Sources */,
 			);
