@@ -9,9 +9,8 @@
 #import "NSBezierPath+Geometry.h"
 #import "NSBezierPath+Geometry.h"
 
-NSAffineTransform*	RotationTransform(const float angle, const NSPoint aboutPoint)
-{
-	NSAffineTransform*	xfm = [NSAffineTransform transform];
+NSAffineTransform *RotationTransform(const float angle, const NSPoint aboutPoint) {
+	NSAffineTransform *xfm = [NSAffineTransform transform];
 	[xfm translateXBy:aboutPoint.x yBy:aboutPoint.y];
 	[xfm rotateByRadians:angle];
 	[xfm translateXBy:-aboutPoint.x yBy:-aboutPoint.y];
@@ -21,28 +20,24 @@ NSAffineTransform*	RotationTransform(const float angle, const NSPoint aboutPoint
 
 @implementation NSBezierPath (Geometry)
 
-- (NSBezierPath*)rotatedBezierPath:(float) angle
-{
+- (NSBezierPath *)rotatedBezierPath:(float)angle {
 	return [self rotatedBezierPath:angle aboutPoint:[self centerOfBounds]];
 }
 
-- (NSBezierPath*)rotatedBezierPath:(float)angle aboutPoint:(NSPoint)point
-{
-	if( angle == 0.0 ) return self;
+- (NSBezierPath*)rotatedBezierPath:(float)angle aboutPoint:(NSPoint)point {
+	if(angle == 0.0) return self;
 	else
 	{
 		NSBezierPath* copy = [self copy];
-        
-		NSAffineTransform*	xfm = RotationTransform(angle, point);
+		NSAffineTransform *xfm = RotationTransform(angle, point);
 		[copy transformUsingAffineTransform:xfm];
 		
 		return copy;
 	}
 }
 
-- (NSPoint)centerOfBounds
-{
-	return NSMakePoint(NSMidX([self bounds]), NSMidY([self bounds]));
+- (NSPoint)centerOfBounds {
+	return NSMakePoint(NSMidX(self.bounds), NSMidY(self.bounds));
 }
 
 @end
