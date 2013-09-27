@@ -1295,8 +1295,8 @@
 			<object class="NSCustomObject" id="653572271">
 				<string key="NSClassName">NSFontManager</string>
 			</object>
-			<object class="NSWindowTemplate" id="453752481">
-				<int key="NSWindowStyleMask">15</int>
+			<object class="NSWindowTemplate" id="306628271">
+				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{131, 159}, {429, 190}}</string>
 				<int key="NSWTFlags">1685586944</int>
@@ -1304,205 +1304,204 @@
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
-				<object class="NSView" key="NSWindowView" id="612989547">
+				<object class="NSView" key="NSWindowView" id="357929909">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="NSCustomView" id="352506450">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="976093858">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="272823625">
-									<reference key="NSNextResponder" ref="352506450"/>
+								<object class="NSCustomView" id="796220376">
+									<reference key="NSNextResponder" ref="976093858"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="352506450"/>
+									<reference key="NSSuperview" ref="976093858"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="839320566"/>
+									<reference key="NSNextKeyView" ref="811681390"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{20, 120}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="272823625"/>
+							<reference key="NSNextKeyView" ref="796220376"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="839320566">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="811681390">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="811990481">
-									<reference key="NSNextResponder" ref="839320566"/>
+								<object class="NSCustomView" id="431254584">
+									<reference key="NSNextResponder" ref="811681390"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="839320566"/>
+									<reference key="NSSuperview" ref="811681390"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="1017377621"/>
+									<reference key="NSNextKeyView" ref="140924575"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{78, 120}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="811990481"/>
+							<reference key="NSNextKeyView" ref="431254584"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="1017377621">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="140924575">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="658913434">
-									<reference key="NSNextResponder" ref="1017377621"/>
+								<object class="NSCustomView" id="904760380">
+									<reference key="NSNextResponder" ref="140924575"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="1017377621"/>
+									<reference key="NSSuperview" ref="140924575"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="943835398"/>
+									<reference key="NSNextKeyView" ref="612367096"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{136, 120}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="658913434"/>
+							<reference key="NSNextKeyView" ref="904760380"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="943835398">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="612367096">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="283334561">
-									<reference key="NSNextResponder" ref="943835398"/>
+								<object class="NSCustomView" id="310389742">
+									<reference key="NSNextResponder" ref="612367096"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="943835398"/>
+									<reference key="NSSuperview" ref="612367096"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="518088655"/>
+									<reference key="NSNextKeyView" ref="432559363"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{194, 120}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="283334561"/>
+							<reference key="NSNextKeyView" ref="310389742"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="338123069">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="386914558">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="425382831">
-									<reference key="NSNextResponder" ref="338123069"/>
+								<object class="NSCustomView" id="911005826">
+									<reference key="NSNextResponder" ref="386914558"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{150, 150}</string>
-									<reference key="NSSuperview" ref="338123069"/>
+									<reference key="NSSuperview" ref="386914558"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{259, 20}, {150, 150}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="425382831"/>
+							<reference key="NSNextKeyView" ref="911005826"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="518088655">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="432559363">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="999433086">
-									<reference key="NSNextResponder" ref="518088655"/>
+								<object class="NSCustomView" id="221574187">
+									<reference key="NSNextResponder" ref="432559363"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="518088655"/>
+									<reference key="NSSuperview" ref="432559363"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="560976449"/>
+									<reference key="NSNextKeyView" ref="621398937"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{20, 20}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="999433086"/>
+							<reference key="NSNextKeyView" ref="221574187"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="560976449">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="621398937">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="757728428">
-									<reference key="NSNextResponder" ref="560976449"/>
+								<object class="NSCustomView" id="697984875">
+									<reference key="NSNextResponder" ref="621398937"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="560976449"/>
+									<reference key="NSSuperview" ref="621398937"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="1014588025"/>
+									<reference key="NSNextKeyView" ref="493371079"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{78, 20}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="757728428"/>
+							<reference key="NSNextKeyView" ref="697984875"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="1014588025">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="493371079">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="348962433">
-									<reference key="NSNextResponder" ref="1014588025"/>
+								<object class="NSCustomView" id="19370131">
+									<reference key="NSNextResponder" ref="493371079"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="1014588025"/>
+									<reference key="NSSuperview" ref="493371079"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="1055683746"/>
+									<reference key="NSNextKeyView" ref="329056440"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{136, 20}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="348962433"/>
+							<reference key="NSNextKeyView" ref="19370131"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="NSCustomView" id="1055683746">
-							<reference key="NSNextResponder" ref="612989547"/>
+						<object class="NSCustomView" id="329056440">
+							<reference key="NSNextResponder" ref="357929909"/>
 							<int key="NSvFlags">268</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="798431700">
-									<reference key="NSNextResponder" ref="1055683746"/>
+								<object class="NSCustomView" id="512817471">
+									<reference key="NSNextResponder" ref="329056440"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrameSize">{50, 50}</string>
-									<reference key="NSSuperview" ref="1055683746"/>
+									<reference key="NSSuperview" ref="329056440"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="338123069"/>
+									<reference key="NSNextKeyView" ref="386914558"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSClassName">ITProgressIndicator</string>
 								</object>
 							</array>
 							<string key="NSFrame">{{194, 20}, {50, 50}}</string>
-							<reference key="NSSuperview" ref="612989547"/>
+							<reference key="NSSuperview" ref="357929909"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="798431700"/>
+							<reference key="NSNextKeyView" ref="512817471"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
 						</object>
@@ -1510,7 +1509,7 @@
 					<string key="NSFrameSize">{429, 190}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="352506450"/>
+					<reference key="NSNextKeyView" ref="976093858"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
@@ -3181,144 +3180,144 @@
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">dc5-ZG-YTK</string>
-						<reference key="object" ref="453752481"/>
+						<reference key="object" ref="306628271"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="612989547"/>
+							<reference ref="357929909"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">AmG-PM-cSr</string>
-						<reference key="object" ref="612989547"/>
+						<reference key="object" ref="357929909"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="352506450"/>
-							<reference ref="839320566"/>
-							<reference ref="1017377621"/>
-							<reference ref="518088655"/>
-							<reference ref="560976449"/>
-							<reference ref="1014588025"/>
-							<reference ref="1055683746"/>
-							<reference ref="338123069"/>
-							<reference ref="943835398"/>
+							<reference ref="976093858"/>
+							<reference ref="811681390"/>
+							<reference ref="140924575"/>
+							<reference ref="432559363"/>
+							<reference ref="621398937"/>
+							<reference ref="493371079"/>
+							<reference ref="329056440"/>
+							<reference ref="386914558"/>
+							<reference ref="612367096"/>
 						</array>
-						<reference key="parent" ref="453752481"/>
+						<reference key="parent" ref="306628271"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">xgV-Sp-oek</string>
-						<reference key="object" ref="352506450"/>
+						<reference key="object" ref="976093858"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="272823625"/>
+							<reference ref="796220376"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">tfB-hA-rZf</string>
-						<reference key="object" ref="272823625"/>
-						<reference key="parent" ref="352506450"/>
+						<reference key="object" ref="796220376"/>
+						<reference key="parent" ref="976093858"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">LrE-Yd-Agq</string>
-						<reference key="object" ref="839320566"/>
+						<reference key="object" ref="811681390"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="811990481"/>
+							<reference ref="431254584"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">aCl-hU-Aw3</string>
-						<reference key="object" ref="811990481"/>
-						<reference key="parent" ref="839320566"/>
+						<reference key="object" ref="431254584"/>
+						<reference key="parent" ref="811681390"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">Yz3-FT-jCy</string>
-						<reference key="object" ref="1017377621"/>
+						<reference key="object" ref="140924575"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="658913434"/>
+							<reference ref="904760380"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">hKH-iW-pry</string>
-						<reference key="object" ref="658913434"/>
-						<reference key="parent" ref="1017377621"/>
+						<reference key="object" ref="904760380"/>
+						<reference key="parent" ref="140924575"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">XH3-Z3-NdO</string>
-						<reference key="object" ref="518088655"/>
+						<reference key="object" ref="432559363"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="999433086"/>
+							<reference ref="221574187"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">hMR-Pe-qfZ</string>
-						<reference key="object" ref="560976449"/>
+						<reference key="object" ref="621398937"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="757728428"/>
+							<reference ref="697984875"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">S4r-I2-56w</string>
-						<reference key="object" ref="1014588025"/>
+						<reference key="object" ref="493371079"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="348962433"/>
+							<reference ref="19370131"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">qwH-1H-p3c</string>
-						<reference key="object" ref="348962433"/>
-						<reference key="parent" ref="1014588025"/>
+						<reference key="object" ref="19370131"/>
+						<reference key="parent" ref="493371079"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">kuN-Tm-NNI</string>
-						<reference key="object" ref="757728428"/>
-						<reference key="parent" ref="560976449"/>
+						<reference key="object" ref="697984875"/>
+						<reference key="parent" ref="621398937"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">xmT-3O-YzL</string>
-						<reference key="object" ref="999433086"/>
-						<reference key="parent" ref="518088655"/>
+						<reference key="object" ref="221574187"/>
+						<reference key="parent" ref="432559363"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">fCY-4F-Rq2</string>
-						<reference key="object" ref="1055683746"/>
+						<reference key="object" ref="329056440"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="798431700"/>
+							<reference ref="512817471"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">Dpz-CH-t9M</string>
-						<reference key="object" ref="798431700"/>
-						<reference key="parent" ref="1055683746"/>
+						<reference key="object" ref="512817471"/>
+						<reference key="parent" ref="329056440"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">4Tc-oA-2ch</string>
-						<reference key="object" ref="338123069"/>
+						<reference key="object" ref="386914558"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="425382831"/>
+							<reference ref="911005826"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">ckZ-bW-yRs</string>
-						<reference key="object" ref="425382831"/>
-						<reference key="parent" ref="338123069"/>
+						<reference key="object" ref="911005826"/>
+						<reference key="parent" ref="386914558"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">Rqg-TR-Ho0</string>
-						<reference key="object" ref="943835398"/>
+						<reference key="object" ref="612367096"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="283334561"/>
+							<reference ref="310389742"/>
 						</array>
-						<reference key="parent" ref="612989547"/>
+						<reference key="parent" ref="357929909"/>
 					</object>
 					<object class="IBObjectRecord">
 						<string key="id">AX7-eF-9t3</string>
-						<reference key="object" ref="283334561"/>
-						<reference key="parent" ref="943835398"/>
+						<reference key="object" ref="310389742"/>
+						<reference key="parent" ref="612367096"/>
 					</object>
 				</array>
 			</object>
@@ -3628,7 +3627,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="283334561"/>
+						<reference key="object" ref="310389742"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.number</string>
@@ -3649,7 +3648,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="798431700"/>
+						<reference key="object" ref="512817471"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.boolean</string>
@@ -3669,7 +3668,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="811990481"/>
+						<reference key="object" ref="431254584"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.number</string>
@@ -3694,7 +3693,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="425382831"/>
+						<reference key="object" ref="911005826"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.number</string>
@@ -3727,7 +3726,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="658913434"/>
+						<reference key="object" ref="904760380"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.number</string>
@@ -3743,7 +3742,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="757728428"/>
+						<reference key="object" ref="697984875"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.color</string>
@@ -3761,7 +3760,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="348962433"/>
+						<reference key="object" ref="19370131"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.number</string>
@@ -3783,7 +3782,7 @@
 					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
 					<object class="IBUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
 						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
-						<reference key="object" ref="999433086"/>
+						<reference key="object" ref="221574187"/>
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.color</string>
