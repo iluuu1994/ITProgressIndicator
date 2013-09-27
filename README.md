@@ -29,6 +29,9 @@ Make sure to copy them to the project, and to add them to the target.
 Make sure to check out the sample project.
 Simply drag a custom view onto your window and set it's custom class to `ITProgressIndicator`.
 
+It's advised to embed your progress indicator into a layer-backed view!
+Look at the demo application for clarifaction.
+
 To customise your progress indicator, use the following properties:
 
     /// @property isIndeterminate - Indicates if the view will show the progress, or just spin
