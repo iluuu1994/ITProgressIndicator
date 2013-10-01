@@ -6,6 +6,11 @@
 //  Copyright (c) 2013 Ilija Tovilo. All rights reserved.
 //
 
+#if !__has_feature(objc_arc)
+#error ARC needs to be enabled!
+#endif
+
+
 #import "NSBezierPath+Geometry.h"
 
 NSAffineTransform *RotationTransform(const float angle, const NSPoint aboutPoint) {
