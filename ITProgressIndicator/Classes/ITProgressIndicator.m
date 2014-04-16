@@ -22,6 +22,7 @@
 #pragma mark - Private Interface
 
 @interface ITProgressIndicator ()
+@property (nonatomic, strong, readonly) CALayer *rootLayer;
 @property (nonatomic, strong, readonly) CALayer *progressIndicatorLayer;
 @end
 
@@ -66,9 +67,11 @@
     self.animates = YES;
     
     // Init layers
+    _rootLayer = [CALayer layer];
+    self.layer = _rootLayer;
     [self setWantsLayer:YES];
-    self.progressIndicatorLayer.frame = self.layer.bounds;
-    [self.layer addSublayer:self.progressIndicatorLayer];
+    self.progressIndicatorLayer.frame = _rootLayer.bounds;
+    [_rootLayer addSublayer:self.progressIndicatorLayer];
     
     [self reloadIndicatorContent];
     [self reloadAnimation];
