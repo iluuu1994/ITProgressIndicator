@@ -201,7 +201,7 @@
     if (self.steppedAnimation) {
         {
             [keyFrameValues addObject:[NSNumber numberWithFloat:0.0]];
-            for (int i = 0; i < self.numberOfLines; i++) {
+            for (NSUInteger i = 0; i < self.numberOfLines; i++) {
                 [keyFrameValues addObject:[NSNumber numberWithFloat:-M_PI * (2.0 / self.numberOfLines * i)]];
                 [keyFrameValues addObject:[NSNumber numberWithFloat:-M_PI * (2.0 / self.numberOfLines * i)]];
             }
@@ -211,7 +211,7 @@
         keyTimeValues = [NSMutableArray array];
         {
             [keyTimeValues addObject:[NSNumber numberWithFloat:0.0]];
-            for (int i = 0; i < (self.numberOfLines - 1); i++) {
+            for (NSUInteger i = 0; i < (self.numberOfLines - 1); i++) {
                 [keyTimeValues addObject:[NSNumber numberWithFloat:1.0 / self.numberOfLines * i]];
                 [keyTimeValues addObject:[NSNumber numberWithFloat:1.0 / self.numberOfLines * (i + 1)]];
             }
