@@ -18,8 +18,6 @@ Copy the following files:
 
 * `ITProgressIndicator.h`
 * `ITProgressIndicator.m`
-* `NSBezierPath+Geometry.h`
-* `NSBezierPath+Geometry.m`
 
 Make sure to copy them to the project, and to add them to the target.
 
