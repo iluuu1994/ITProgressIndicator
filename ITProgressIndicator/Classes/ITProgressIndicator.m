@@ -12,12 +12,59 @@
 
 
 #import "ITProgressIndicator.h"
-#import "NSBezierPath+Geometry.h"
 
 
 #pragma mark - Consts
 #define kITSpinAnimationKey @"spinAnimation"
 #define kITProgressPropertyKey @"progress"
+
+
+// ----------------------------------------------------------------------------------------
+#pragma mark - NSBezierPath+IT_Geometry
+// ----------------------------------------------------------------------------------------
+
+@interface NSBezierPath (IT_Geometry)
+
+- (NSBezierPath*)it_rotatedBezierPath:(float) angle;
+- (NSBezierPath*)it_rotatedBezierPath:(float) angle aboutPoint:(NSPoint)point;
+
+@end
+
+@implementation NSBezierPath (IT_Geometry)
+
+- (NSBezierPath *)it_rotatedBezierPath:(float)angle {
+	return [self it_rotatedBezierPath:angle aboutPoint:NSMakePoint(NSMidX(self.bounds), NSMidY(self.bounds))];
+}
+
+- (NSBezierPath*)it_rotatedBezierPath:(float)angle aboutPoint:(NSPoint)point {
+	if(angle == 0.0) return self;
+	else
+	{
+		NSBezierPath* copy = [self copy];
+		NSAffineTransform *xfm = [self it_rotationTransformWithAngle:angle aboutPoint:point];
+		[copy transformUsingAffineTransform:xfm];
+		
+		return copy;
+	}
+}
+
+- (NSAffineTransform *)it_rotationTransformWithAngle:(const float)angle aboutPoint:(const NSPoint)aboutPoint {
+	NSAffineTransform *xfm = [NSAffineTransform transform];
+	[xfm translateXBy:aboutPoint.x yBy:aboutPoint.y];
+	[xfm rotateByRadians:angle];
+	[xfm translateXBy:-aboutPoint.x yBy:-aboutPoint.y];
+    
+	return xfm;
+}
+
+@end
+
+
+
+
+// ----------------------------------------------------------------------------------------
+#pragma mark - ITProgressIndicator
+// ----------------------------------------------------------------------------------------
 
 #pragma mark - Private Interface
 
@@ -116,8 +163,8 @@
             void (^lineDrawingBlock)(NSUInteger line) =
             ^(NSUInteger lineNumber) {
                 NSBezierPath *lineInstance = [line copy];
-                lineInstance = [lineInstance rotatedBezierPath:((2 * M_PI) / self.numberOfLines * lineNumber) + M_PI
-                                                    aboutPoint:NSMakePoint(NSWidth(r) / 2, NSHeight(r) / 2)];
+                lineInstance = [lineInstance it_rotatedBezierPath:((2 * M_PI) / self.numberOfLines * lineNumber) + M_PI
+                                                       aboutPoint:NSMakePoint(NSWidth(r) / 2, NSHeight(r) / 2)];
                 
                 if (_isIndeterminate) [[self.color colorWithAlphaComponent:1.0 - (1.0 / self.numberOfLines * lineNumber)] set];
                 

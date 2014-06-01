@@ -20,7 +20,6 @@
 		91F498E117F38F12007CBE92 /* ITProgressIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F498E017F38F12007CBE92 /* ITProgressIndicatorTests.m */; };
 		91F5AD8417F4529500393596 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F5AD8317F4529400393596 /* QuartzCore.framework */; };
 		91F8246C17F4CA3900371819 /* ITProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8246917F4CA3900371819 /* ITProgressIndicator.m */; };
-		91F8246D17F4CA3900371819 /* NSBezierPath+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8246B17F4CA3900371819 /* NSBezierPath+Geometry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +55,6 @@
 		91F5AD8317F4529400393596 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		91F8246817F4CA3900371819 /* ITProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITProgressIndicator.h; path = Classes/ITProgressIndicator.h; sourceTree = SOURCE_ROOT; };
 		91F8246917F4CA3900371819 /* ITProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ITProgressIndicator.m; path = Classes/ITProgressIndicator.m; sourceTree = SOURCE_ROOT; };
-		91F8246A17F4CA3900371819 /* NSBezierPath+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+Geometry.h"; path = "Classes/NSBezierPath+Geometry.h"; sourceTree = SOURCE_ROOT; };
-		91F8246B17F4CA3900371819 /* NSBezierPath+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+Geometry.m"; path = "Classes/NSBezierPath+Geometry.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +84,6 @@
 			children = (
 				91F8246817F4CA3900371819 /* ITProgressIndicator.h */,
 				91F8246917F4CA3900371819 /* ITProgressIndicator.m */,
-				91F8246A17F4CA3900371819 /* NSBezierPath+Geometry.h */,
-				91F8246B17F4CA3900371819 /* NSBezierPath+Geometry.m */,
 			);
 			name = ITProgressIndicator;
 			sourceTree = "<group>";
@@ -277,7 +272,6 @@
 				91F498CA17F38F12007CBE92 /* AppDelegate.m in Sources */,
 				91F498C317F38F12007CBE92 /* main.m in Sources */,
 				91F8246C17F4CA3900371819 /* ITProgressIndicator.m in Sources */,
-				91F8246D17F4CA3900371819 /* NSBezierPath+Geometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
