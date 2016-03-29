@@ -22,6 +22,8 @@
  *  So basically, it's awesome.
  *
  */
+
+IB_DESIGNABLE
 @interface ITProgressIndicator : NSView
 
 #pragma mark - Methods
@@ -41,41 +43,40 @@
 
 
 /// @property progress - The amount that should be shown when `isIndeterminate` is set to `YES`
-@property (nonatomic) CGFloat progress;
+@property (nonatomic) IBInspectable CGFloat progress;
 
 
 /// @property animates - Indicates if the view is animating
-@property (nonatomic) BOOL animates;
+@property (nonatomic) IBInspectable BOOL animates;
 
 
 /// @property hideWhenStopped - Indicates if the view will be hidden if it's stopped
-@property (nonatomic) BOOL hideWhenStopped;
+@property (nonatomic) IBInspectable BOOL hideWhenStopped;
 
 
 /// @property lengthOfLine - The length of a single line
-@property (nonatomic) CGFloat lengthOfLine;
+@property (nonatomic) IBInspectable CGFloat lengthOfLine;
 
 
 /// @property widthOfLine - The width of a single line
-@property (nonatomic) CGFloat widthOfLine;
+@property (nonatomic) IBInspectable CGFloat widthOfLine;
 
 
 /// @property numberOfLines - The number of lines of the indicator
-@property (nonatomic) NSUInteger numberOfLines;
+@property (nonatomic) IBInspectable NSUInteger numberOfLines;
 
 
 /// @property innerMargin - The distance of the lines from the middle
-@property (nonatomic) CGFloat innerMargin;
+@property (nonatomic) IBInspectable CGFloat innerMargin;
 
 
 /// @property animationDuration - Duration of a single rotation
-@property (nonatomic) CGFloat animationDuration;
-
+@property (nonatomic) IBInspectable CGFloat animationDuration;
 
 /// @property gradualAnimation - Defines if the animation is smooth or gradual
-@property (nonatomic) BOOL steppedAnimation;
+@property (nonatomic) IBInspectable BOOL steppedAnimation;
 
 /// @property color - The color of the progress indicator
-@property (nonatomic, strong) NSColor *color;
+@property (nonatomic, strong) IBInspectable NSColor *color;
 
 @end
