@@ -234,7 +234,8 @@
     [animation setKeyTimes:keyTimeValues];
     [animation setValueFunction:[CAValueFunction functionWithName: kCAValueFunctionRotateZ]];
     [animation setDuration:self.animationDuration];
-    
+    [animation setBeginTime: 1];
+      
     return animation;
 }
 
